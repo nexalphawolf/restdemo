@@ -22,13 +22,13 @@ ArrayList<Student> students;
     //@GetMapping("/")
     @RequestMapping(value="/", method = RequestMethod.GET)
     public String getGreeting(){
+
         Student s1 = new Student();
         s1.setId(10);
-        s1.setName("shriniket");
+        s1.setName("Neel");
 
-        //master branch changes
         Student s2 = new Student();
-        s2.setId(40);
+        s2.setId(20);
         s2.setName("Nehal");
 
         students = new ArrayList<>();
