@@ -24,7 +24,7 @@ ArrayList<Student> students;
     public String getGreeting(){
         Student s1 = new Student();
         s1.setId(10);
-        s1.setName("ankit");
+        s1.setName("shriniket");
 
         //master branch changes
         Student s2 = new Student();
